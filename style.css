@@ -28,7 +28,7 @@ body{
 .calc-button-row:last-child{
     padding-bottom: 0;
 }
-.calc-button {
+.calc-button, .calc-button-number {
     background-color: #d8d9db;
     color: black;
     height: 100px;
@@ -41,7 +41,13 @@ body{
 .calc-button:hover{
     background-color: #ebebeb;
 }
+.calc-button-number:hover{
+    background-color: #ebebeb;
+}
 .calc-button:active{
+    background-color: #bbbcbe;
+}
+.calc-button-number:active{
     background-color: #bbbcbe;
 }
 .double{
@@ -54,7 +60,7 @@ body{
     background-color: #df974c;
     color: white;
 }
-.calc-button:last-cilhd:hover{
+.calc-button:last-child:hover{
     background-color: #dfb07e;
 }
 .calc-button:last-child:active{
